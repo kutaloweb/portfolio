@@ -9,10 +9,10 @@ class NavbarTwo extends Component{
             <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
                 <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
                     <div className={`container ${mContainer}`}>
-                        <a className="navbar-brand logo_h" href="index.html">
+M                        <span className="navbar-brand logo_h">
                             <img src={require ("../../image/" + mainlogo)} alt=""/>
                             <img src={require ("../../image/" + stickylogo)} alt=""/>
-                        </a>
+                        </span>
                         <a href="./" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="icon-bar"></span>
