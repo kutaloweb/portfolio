@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Reveal} from 'react-reveal/';
+import Particles from "./Particles";
 
-class frelencerBanner extends Component {
+class freelancerBanner extends Component {
     render(){
         return(
             <section className="frelencer_banner_area" id="home">
@@ -12,6 +13,7 @@ class frelencerBanner extends Component {
                     <div className="bubble b_four"></div>
                     <div className="bubble b_five"></div>
                     <div className="bubble b_six"></div>
+                    <Particles/>
                 </div>
                 <Reveal effect="fadeInRight" duration={500}>
                 <img className="s_shap" src={require('../../image/banner_img.svg')}  alt=""/>
@@ -71,4 +73,4 @@ class frelencerBanner extends Component {
     }
 }
 
-export default frelencerBanner;
+export default freelancerBanner;

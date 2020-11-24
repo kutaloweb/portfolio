@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarTwo from './component/Navbar/NavbarTwo';
-import FBanner from './component/Banner/frelencerBanner';
+import FBanner from './component/Banner/FreelancerBanner';
 import PortfolioSlider from './component/Portfolio/PortfolioSlider';
 import TestimonialTwo from './component/Testimonial/TestimonialTwo';
 import ClientslogoTwo from './component/ClientslogoTwo';

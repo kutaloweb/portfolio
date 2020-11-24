@@ -1,11 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js/';
-import Img1 from '../../image/img-1.png';
-import Img2 from '../../image/h_pijom1.png';
-import Img3 from '../../image/wave.png';
-import Img4 from '../../image/tr_two.png';
 import Img5 from '../../image/img-6.png';
-import Img6 from '../../image/img-8.png';
 
 const ParticlesComponent = () => {
   return (
@@ -15,7 +10,7 @@ const ParticlesComponent = () => {
         params={{
           particles: {
             number: {
-              value: 8,
+              value: 2,
               density: { enable: true, value_area: 800 },
             },
 
@@ -23,34 +18,9 @@ const ParticlesComponent = () => {
               type: ['images'],
               images: [
                 {
-                  src: `${Img1}`,
-                  width: 50,
-                  height: 53,
-                },
-                {
-                  src: `${Img2}`,
-                  width: 100,
-                  height: 100,
-                },
-                {
-                  src: `${Img3}`,
-                  width: 100,
-                  height: 90,
-                },
-                {
-                  src: `${Img4}`,
-                  width: 30,
-                  height: 30,
-                },
-                {
                   src: `${Img5}`,
                   width: 50,
-                  height: 53,
-                },
-                {
-                  src: `${Img6}`,
-                  width: 50,
-                  height: 53,
+                  height: 50,
                 },
               ],
             },
@@ -61,7 +31,7 @@ const ParticlesComponent = () => {
             },
             size: {
               value: 15,
-              random: true,
+              random: false,
               anim: { enable: false, speed: 40, size_min: 0.8, sync: false },
             },
             line_linked: {
@@ -85,9 +55,9 @@ const ParticlesComponent = () => {
           interactivity: {
             detect_on: 'canvas',
             events: {
-              onhover: { enable: true, mode: 'repulse' },
-              onclick: { enable: true, mode: 'push' },
-              resize: true,
+              onhover: { enable: false, mode: 'repulse' },
+              onclick: { enable: false, mode: 'push' },
+              resize: false,
             },
             modes: {
               grab: { distance: 400, line_linked: { opacity: 1 } },
