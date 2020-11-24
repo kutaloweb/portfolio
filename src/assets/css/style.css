@@ -242,7 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .navbar-nav .nav-item {
-  margin-left: 35px;
+  margin-left: 25px;
+  margin-top:-5px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -2313,3 +2314,151 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+/*============ new_footer_area css ===========*/
+.new_footer_area {
+  background: #fbfbfd;
+}
+
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.new_footer_area .footer_bottom p {
+  font-size: 16px;
+  color: #6a7695;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.new_footer_area .footer_bottom p i {
+  color: #fd2f51;
+}
+
+.new_footer_top {
+  padding: 120px 0 70px;
+  position: relative;
+}
+
+.new_footer_top .f-title {
+  margin-bottom: 30px;
+  color: #263b5e;
+}
+
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+  margin-bottom: 20px;
+}
+
+.new_footer_top .company_widget .f_subscribe_two .form-control {
+  border: 1px solid #e2e2eb;
+  border-radius: 4px;
+  height: 55px;
+  background: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 55px;
+  padding-left: 30px;
+}
+
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a:before {
+  display: none;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a {
+  width: 44px;
+  height: 44px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 12px;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #5e2ced;
+  border-color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a + a {
+  margin-left: 4px;
+}
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("../../image/footer_bg_old.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url("../../image/car.png") no-repeat center center;
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 22s  linear infinite;
+  animation: myfirst 22s  linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url("../../image/bike.png") no-repeat center center;
+  width: 50px;
+  height: 52px;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s  linear infinite;
+  animation: myfirst 30s  linear infinite;
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}

@@ -1,34 +1,29 @@
-import React, {Component} from 'react';
-import Fade from 'react-reveal/Fade';
-class FooterTwo extends Component{
+import React , {Component} from 'react';
+
+class FooterTwo extends Component {
     render(){
-        let jhonData = this.props.jhonData;
+        const today = new Date();
         return(
-            <section className="footer-area-two">
-                <div className="container">
-                    <div className="row footer-content">
-                        <div className="col-sm-4">
-                            <Fade top cascade>
-                                <ul className="list_style">
-                                    {
-                                        jhonData.socialLinks.map(item =>{
-                                            return(
-                                                <li key={item.name}>
-                                                    <a  href={item.url}><i className={item.className}></i></a> 
-                                                </li>
-                                            )
-                                        })
-                                    }
-                                </ul>
-                            </Fade>
-                        </div>
-                        <div className="col-sm-8 text-right">
-                            <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                            <p>© 2020 Blazethemez - All Rights Reserved</p>
+            <footer className="new_footer_area bg_color">
+                <div className="new_footer_top">
+                    <div className="footer_bg">
+                        <div className="footer_bg_one"></div>
+                        <div className="footer_bg_two"></div>
+                    </div>
+                </div>
+                <div className="footer_bottom">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-sm-7">
+                                <p className="mb-0 f_400">© {today.getFullYear()} AlexKutalo.com. All rights reserved. </p>
+                            </div>
+                            <div className="col-lg-6 col-sm-5 text-right">
+                                <p>Made with <i className="icon_heart"></i> by Alexey Kutalo</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </footer>
         )
     }
 }
