@@ -3,7 +3,7 @@ import SectionTitleTwo from '../component/Banner/SectionTitleTwo';
 class ClientslogoTwo extends Component {
     render(){
         return(
-            <div className="clients_logo_area_two bg_color">
+            <div className="clients_logo_area_two bg_color" id="clients">
                 <div className="c_round"></div>
                 <div className="container">
                     <div className="row">

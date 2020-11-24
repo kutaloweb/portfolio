@@ -26,7 +26,7 @@ class NavbarTwo extends Component{
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="service" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Service
+                                        Services
                                     </Link>
                                 </li>
                                 <li className="nav-item">
@@ -36,17 +36,22 @@ class NavbarTwo extends Component{
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="skill" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Skill
+                                        Skills
                                     </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Testimonial
+                                        Testimonials
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" activeClass="active" to="clients" spy={true} smooth={true} offset={-86} duration={500}>
+                                        Clients
                                     </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="contacts" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Contact
+                                        Contacts
                                     </Link>
                                 </li>
                             </ul>
