@@ -11,7 +11,7 @@ import SkillTwo from './component/Skill/SkillTwo';
 import FooterTwo from './component/FooterTwo';
 import jhonData from './component/jhonData';
 
-export const Homefrelencer = () => (
+export const Freelancer = () => (
   <div className="body_wrapper">
     <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>  
     <FBanner jhonData={jhonData}/>
