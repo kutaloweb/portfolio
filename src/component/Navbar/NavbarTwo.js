@@ -30,13 +30,13 @@ class NavbarTwo extends Component{
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Portfolio
+                                    <Link className="nav-link" activeClass="active" to="skill" spy={true} smooth={true} offset={-86} duration={500}>
+                                        Skills
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="skill" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Skills
+                                    <Link className="nav-link" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-86} duration={500}>
+                                        Portfolio
                                     </Link>
                                 </li>
                                 <li className="nav-item">

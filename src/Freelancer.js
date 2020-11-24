@@ -15,8 +15,8 @@ export const Freelancer = () => (
     <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>  
     <FBanner jhonData={jhonData}/>
     <Service wClass="work_area" jhonData={jhonData}/>
-    <PortfolioSlider/>
     <SkillTwo/>
+    <PortfolioSlider/>
     <TestimonialTwo/>
     <ClientslogoTwo/>
     <ContactTwo jhonData={jhonData}/>

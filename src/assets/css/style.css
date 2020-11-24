@@ -1859,8 +1859,8 @@ h1, h2, h3, h4, h5, h6 {
  }
 .portfolio_slider .slick-dots li button,.testimonial_slider_info .slick-dots li button{
   padding: 0px;
-  width: 8px;
-  height: 8px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   background: #999;
   opacity: 0.3;
