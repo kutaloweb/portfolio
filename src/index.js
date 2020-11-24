@@ -25,7 +25,7 @@ setTimeout(
             <App hideLoader={hideLoader} />,
             document.getElementById("root")
         ),
-    1600
+    1800
 );
 
 // If you want your app to work offline and load faster, you can change

@@ -9,7 +9,7 @@ class NavbarTwo extends Component{
             <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
                 <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
                     <div className={`container ${mContainer}`}>
-M                        <span className="navbar-brand logo_h">
+                        <span className="navbar-brand logo_h">
                             <img src={require ("../../image/" + mainlogo)} alt=""/>
                             <img src={require ("../../image/" + stickylogo)} alt=""/>
                         </span>
