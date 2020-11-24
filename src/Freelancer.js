@@ -5,7 +5,6 @@ import PortfolioSlider from './component/Portfolio/PortfolioSlider';
 import ServiceTwo from './component/ServiceTwo';
 import TestimonialTwo from './component/Testimonial/TestimonialTwo';
 import ClientslogoTwo from './component/ClientslogoTwo';
-import BlogTwo from './component/Blog/BlogTwo';
 import ContactTwo from './component/ContactTwo';
 import SkillTwo from './component/Skill/SkillTwo';
 import FooterTwo from './component/FooterTwo';
@@ -20,7 +19,6 @@ export const Freelancer = () => (
     <SkillTwo/>
     <TestimonialTwo/>
     <ClientslogoTwo/>
-    <BlogTwo/>
     <ContactTwo jhonData={jhonData}/>
     <FooterTwo jhonData={jhonData}/>
   </div>
