@@ -1532,7 +1532,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg_color{
-  background: #fafafa;
+  background: #f3f3f3;
 }
 .work_area_two{
   background: #fff;
@@ -2320,7 +2320,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*============ new_footer_area css ===========*/
 .new_footer_area {
-  background: #fbfbfd;
+  background: #fff;
 }
 
 .new_footer_area .footer_bottom {

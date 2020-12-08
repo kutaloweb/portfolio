@@ -4,7 +4,7 @@ import SectionTitleTwo from '../component/Banner/SectionTitleTwo';
 class ContactTwo extends Component {
     render(){
         return(
-            <section className="contact-area contact-area-two bg_color" id="contacts">
+            <section className="contact-area contact-area-two" id="contacts">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-md-12">

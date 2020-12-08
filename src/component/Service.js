@@ -7,7 +7,7 @@ class Service extends Component{
         let jhonData = this.props.jhonData;
         var {wClass} = this.props
         return(
-            <section className={`${wClass}`} id="service">
+            <section className={`${wClass} bg_color`} id="service">
                 <div className="container">
                     <SectionTitleTwo tCenter="text-center" stitle="What I do ?" btitle="Innovative solutions to grow your creative projects"/>
                     <Fade bottom cascade duration={1000}>

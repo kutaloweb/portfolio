@@ -41,7 +41,7 @@ class SkillTwo extends Component {
     }
     render(){
         return(
-            <section className="skill_area_two bg_color" id="skill">
+            <section className="skill_area_two" id="skill">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

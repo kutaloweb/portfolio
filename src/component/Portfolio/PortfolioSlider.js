@@ -41,7 +41,7 @@ class PortfolioSlider extends Component {
               ]
         };
         return(
-            <section className="portfolio_slider_area" id="portfolio">
+            <section className="portfolio_slider_area bg_color" id="portfolio">
                 <div className="container">
                     <SectionTitleTwo tCenter="text-center" stitle="My Portfolio" btitle="Some of my latest works."/>
                     <Slider {...settings} className="portfolio_slider">
