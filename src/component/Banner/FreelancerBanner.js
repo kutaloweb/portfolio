@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Reveal} from 'react-reveal/';
+import SectionTitleTwo from "./SectionTitleTwo";
+import {Link} from "react-scroll";
 
 class freelancerBanner extends Component {
     render(){
@@ -13,21 +15,24 @@ class freelancerBanner extends Component {
                     <div className="bubble b_five"></div>
                     <div className="bubble b_six"></div>
                 </div>
-                <Reveal effect="fadeInRight" duration={500}>
-                <img className="s_shap" src={require('../../image/banner_img.svg')}  alt=""/>
-                </Reveal>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="frelencer_content">
-                                <Reveal effect="fadeInUp" duration={500}>
-                                    <h2 className="t_color">Hey there!<br/> I'm Martin Solonick Independent <span>Frelencer</span></h2>
-                                </Reveal>
+                            <div className="skill_content_two">
                                 <Reveal effect="fadeInUp" duration={700}>
-                                    <h4><span>I create thousand off website</span></h4>
+                                    <div className="skill_content_two">
+                                        <SectionTitleTwo stitle="About me"
+                                                         btitle="Some Interesting Facts About Me."/>
+                                        <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old
+                                            fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
+                                    </div>
                                 </Reveal>
+                            </div>
+                            <div className="frelencer_content">
                                 <Reveal effect="fadeInUp" duration={900}>
-                                    <a href="./"className="theme_btn active">Hire me</a>
+                                    <Link className="fadeInUp theme_btn active" to="contacts" spy={true} smooth={true} offset={-86} duration={500}>
+                                        Hire me
+                                    </Link>
                                 </Reveal>
                             </div>
                         </div>
@@ -47,11 +52,11 @@ class freelancerBanner extends Component {
                             </Reveal>
                             <Reveal effect="fadeInDown" duration={2000}>
                                 <div className="f_img_five">
-                                    <img className="" src={require('../../image/php.png')} alt=""/>
+                                    <img className="" src={require('../../image/js.png')} alt=""/>
                                 </div>
                             </Reveal>
                                 <div className="f_img_six">
-                                    <img className="" src={require('../../image/c++.png')} alt=""/>
+                                    <img className="" src={require('../../image/css.png')} alt=""/>
                                 </div>
                                 <div className="f_img_seven">
                                     <img className="" src={require('../../image/search.png')} alt=""/>

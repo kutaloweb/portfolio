@@ -8,7 +8,7 @@ class Banner extends Component {
         let {bClass, textLeft, imag}= this.props;
         return(
             <section id="home" >
-                 <WaterWave strength={500} className={`banner_area ${bClass}`} style={{ width: '100%', height: '100%', backgroundSize: 'cover' }} imageUrl={require ("../../image/" + imag)}>
+                 <WaterWave interactive={false} strength={0} className={`banner_area ${bClass}`} style={{ width: '100%', height: '100%', backgroundSize: 'cover' }} imageUrl={require ("../../image/" + imag)}>
                         {({ getRootProps}) => (
                              <div className="container">
                                 <div className={`banner_content ${textLeft}`}>
