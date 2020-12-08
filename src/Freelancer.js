@@ -17,8 +17,8 @@ export const Freelancer = () => (
     <RBanner jhonData={jhonData} bClass="banner_shap_two" imag="man.jpg" textLeft="text-left"/>
     <FBanner jhonData={jhonData}/>
     <Service wClass="work_area" jhonData={jhonData}/>
-    <SkillTwo/>
     <PortfolioSlider/>
+    <SkillTwo wClass="work_area"/>
     <TestimonialTwo/>
     <ClientslogoTwo/>
     <ContactTwo jhonData={jhonData}/>
