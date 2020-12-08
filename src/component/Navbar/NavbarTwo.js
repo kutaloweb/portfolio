@@ -22,7 +22,9 @@ class NavbarTwo extends Component{
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav m-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+                                    <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>
+                                        About
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="service" spy={true} smooth={true} offset={-86} duration={500}>

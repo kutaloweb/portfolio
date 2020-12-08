@@ -7,12 +7,14 @@ import ClientslogoTwo from './component/ClientslogoTwo';
 import ContactTwo from './component/ContactTwo';
 import SkillTwo from './component/Skill/SkillTwo';
 import FooterTwo from './component/FooterTwo';
-import jhonData from './component/jhonData';
 import Service from "./component/Service";
+import RBanner from "./component/Banner/RippleBanner";
+import jhonData from './component/jhonData';
 
 export const Freelancer = () => (
   <div className="body_wrapper">
-    <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>  
+    <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>
+    <RBanner jhonData={jhonData} bClass="banner_shap_two" imag="man.jpg" textLeft="text-left"/>
     <FBanner jhonData={jhonData}/>
     <Service wClass="work_area" jhonData={jhonData}/>
     <SkillTwo/>

@@ -21,18 +21,6 @@ class Banner extends Component {
                                     <Reveal effect="fadeInUp" duration={2200}>
                                         <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
                                     </Reveal>
-                                    <ul className="list_style social_icon">
-                                    {
-                                        jhonData.socialLinks && jhonData.socialLinks.map(item =>{
-                                        return(
-                                                <li key={item.name}>
-                                                <a  href={item.url}><i className={item.className}></i></a> 
-                                                </li>
-                                                )
-                                            }
-                                        )
-                                    }
-                                    </ul>
                                 </div>
                             </div>
                         )}
