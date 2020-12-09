@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import Clientsliders from 'react-slick';
-import Sectiontitle from '../component/Banner/Sectiontitle';
+import SectionTitleTwo from '../component/Banner/SectionTitleTwo';
 
 class Clientslogo extends  Component{
     render(){
         const settings = {
-            dots: false,
-            infinite: true,
+            dots: true,
+            infinite: false,
             speed: 500,
             arrows: false,
             slidesToShow: 6,
@@ -37,9 +37,9 @@ class Clientslogo extends  Component{
             ]
         };
         return(
-            <section className="clients_logo_area">
+            <section className="clients_logo_area_two bg_color" id="clients">
                 <div className="container">
-                    <Sectiontitle Title="Trusted byGreat People" TitleP="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."/>
+                    <SectionTitleTwo tCenter="text-center" stitle="Trusted by Great Partners" btitle="Some of Great companies portfolios discribe."/>
                     <Clientsliders {...settings} className="clients_slider">
                         <div className="item">
                             <a href=".#"><img src={require('../image/1.png')} alt=""/></a>
@@ -60,7 +60,7 @@ class Clientslogo extends  Component{
                             <a href=".#"><img src={require('../image/6.png')} alt=""/></a>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/6.png')} alt=""/></a>
+                            <a href=".#"><img src={require('../image/5.png')} alt=""/></a>
                         </div>
                     </Clientsliders>
                 </div>

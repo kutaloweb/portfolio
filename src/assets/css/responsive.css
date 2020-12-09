@@ -266,8 +266,8 @@
     .counter_desc{
         font-size: 13px !important;
     }
-    .seo_fact_info:before{
-        display: none;
+    .seo_fact_info:before, .seo_fact_item_last{
+        display: none !important;
     }
 }
 @media(max-width:576px){
@@ -326,6 +326,9 @@
     }
     .f_img_eight,.f_img_nine{
         display: none;
+    }
+    .f_img_seven{
+        right: 184px;
     }
     .f_img_two {
         top: 135px;

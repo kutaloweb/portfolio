@@ -69,7 +69,7 @@ class SkillTwo extends Component {
                                 <p className="counter_desc">SEO Winners</p>
                             </div>
                         </div>
-                        <div className="seo_fact_item last wow fadeIn" data-wow-delay="0.1s">
+                        <div className="seo_fact_item seo_fact_item_last wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
                                 <div className="counter four" data-countup>93</div>
                                 <p className="counter_desc">Experience</p>

@@ -3,7 +3,7 @@ import NavbarTwo from './component/Navbar/NavbarTwo';
 import FBanner from './component/Banner/FreelancerBanner';
 import PortfolioSlider from './component/Portfolio/PortfolioSlider';
 import TestimonialTwo from './component/Testimonial/TestimonialTwo';
-import ClientslogoTwo from './component/ClientslogoTwo';
+import Clientslogo from './component/Clientslogo';
 import ContactTwo from './component/ContactTwo';
 import SkillTwo from './component/Skill/SkillTwo';
 import FooterTwo from './component/FooterTwo';
@@ -20,7 +20,7 @@ export const Freelancer = () => (
     <PortfolioSlider/>
     <SkillTwo wClass="work_area"/>
     <TestimonialTwo/>
-    <ClientslogoTwo/>
+    <Clientslogo/>
     <ContactTwo jhonData={jhonData}/>
     <FooterTwo jhonData={jhonData}/>
   </div>
