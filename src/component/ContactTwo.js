@@ -31,13 +31,6 @@ class ContactTwo extends Component {
                                         <p>Z105 - London, UK</p>
                                     </div>
                                 </div>
-                                <div className="media get_item">
-                                    <i className="flaticon-sound"></i>
-                                    <div className="media-body">
-                                        <h6>Listen To Me</h6>
-                                        <a href=".#">john.com</a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-12">

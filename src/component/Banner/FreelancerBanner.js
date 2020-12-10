@@ -59,13 +59,13 @@ class freelancerBanner extends Component {
                                     <img className="" src={require('../../image/css.png')} alt=""/>
                                 </div>
                                 <div className="f_img_seven">
-                                    <img className="" src={require('../../image/search.png')} alt=""/>
+                                    <img className="" src={require('../../image/react.png')} alt=""/>
                                 </div>
                                 <div className="f_img_eight">
-                                    <img className="" src={require('../../image/arrow.png')} alt=""/>
+                                    <img className="" src={require('../../image/hubspot.png')} alt=""/>
                                 </div>
                                 <div className="f_img_nine">
-                                    <img className="" src={require('../../image/brakets.png')} alt=""/>
+                                    <img className="" src={require('../../image/shopify.png')} alt=""/>
                                 </div>
                             </div>
                         </div>

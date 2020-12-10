@@ -269,6 +269,12 @@
     .seo_fact_info:before, .seo_fact_item_last{
         display: none !important;
     }
+    .new_footer_top .footer_bg {
+        height: 415px;
+    }
+    .new_footer_top .footer_bg_one {
+        bottom: 220px;
+    }
 }
 @media(max-width:576px){
     .portfolio_menu li{

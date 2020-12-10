@@ -1,5 +1,5 @@
 const jhonData = {
-    "name": "John Deo.",
+    "name": "Alexey Kutalo",
     "name2": "Richard Tea.",
     "name3": "Alexa Johnson",
     "role": "Visual Designer & Front-End Developer,",
