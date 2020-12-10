@@ -2649,3 +2649,134 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*========= End new skill css ========*/
 /*---------------------------------------------------- */
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/*========= Start new testimonial css ========*/
+.testimonial_area_four {
+  position: relative;
+}
+
+.testimonial_shap_img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial_title {
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.testimonial_title h6 {
+  font-size: 16px;
+  color: #563bd1;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+
+.testimonial_title .prev, .testimonial_title .next {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e0e4ed;
+  text-align: center;
+  font-size: 14px;
+  color: #677294;
+  border-radius: 50%;
+  line-height: 48px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  background: transparent;
+}
+
+.testimonial_title .prev:hover, .testimonial_title .next:hover {
+  background: #563bd1;
+  color: #fff;
+}
+
+.testimonial_title .next {
+  left: 60px;
+}
+
+.stratup_testimonial_info {
+  height: 476px;
+  position: relative;
+}
+
+.stratup_testimonial_info:before {
+  content: "";
+  background: url(../../image/testimonial_bg.png) no-repeat scroll center 0/contain;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.testimonial_slider_four {
+  padding: 0px 70px;
+  width: 100%;
+}
+
+.testimonial_slider_four .item {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial_slider_four .item .author_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.testimonial_slider_four .item img {
+  width: auto;
+}
+
+.testimonial_slider_four .item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.testimonial_slider_four .item h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.testimonial_slider_four .item h6 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.slider_nav .prev, .slider_nav .next{
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #15b2ec;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.slider_nav .prev:hover, .slider_nav .next:hover {
+  color: #c1c1d4;
+}
+
+/*========= End new testimonial css ========*/
+/*---------------------------------------------------- */
