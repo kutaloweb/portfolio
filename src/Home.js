@@ -1,33 +1,26 @@
 import React from 'react';
-import Navbar from './component/Navbar/Navbar';
-import Banner from './component/Banner/Banner';
-import About from './component/About';
-import Service from './component/Service';
-import Portfolio from './component/Portfolio/Portfolio';
-import Testimonial from './component/Testimonial/Testimonial';
-import Clientslogo from './component/Clientslogo';
-import Blog from './component/Blog/Blog';
-import MapContainer from './component/Map';
-import Contact from './component/Contact';
-import Skill from './component/Skill/Skill';
-import Footer from './component/Footer';
-import jhonData from './component/jhonData';
-
+import Navbar from './components/Navbar';
+import BannerHeader from "./components/BannerHeader";
+import BannerAbout from './components/BannerAbout';
+import Services from "./components/Services";
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Testimonials from './components/Testimonials';
+import Clients from './components/Clients';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 export const Home = () => (
   <div className="body_wrapper">
-      <Navbar mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>  
-      <Banner jhonData={jhonData}/>
-      <About aClass="about_area" jhonData={jhonData}/> 
-      <Service wClass="work_area" jhonData={jhonData}/>
-      <Portfolio/>
-      <Skill/>
-      <Testimonial/>
-      <Clientslogo/>
-      <Blog/>
-      <MapContainer/>
-      <Contact jhonData={jhonData}/>
-      <Footer jhonData={jhonData}/>
+    <Navbar mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>
+    <BannerHeader/>
+    <BannerAbout/>
+    <Services/>
+    <Portfolio/>
+    <Skills/>
+    <Testimonials/>
+    <Clients/>
+    <Contacts/>
+    <Footer/>
   </div>
 )
-

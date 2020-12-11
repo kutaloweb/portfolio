@@ -1,7 +1,7 @@
 {
-  "name": "jhon-react",
+  "name": "@kutaloweb/portfolio",
   "version": "0.1.0",
-  "private": true,
+  "author": "Alexey Kutalo <kutalo84@gmail.com>",
   "dependencies": {
     "animejs": "^3.1.0",
     "bootstrap": "^4.3.1",
