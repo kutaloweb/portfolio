@@ -2722,3 +2722,34 @@ h1, h2, h3, h4, h5, h6 {
 .slider_nav .prev:hover, .slider_nav .next:hover {
     color: #c1c1d4;
 }
+
+/*========= cursor css ========*/
+
+.cursor {
+    display: inline-block;
+    position: relative;
+}
+
+.cursor::after {
+    content: "";
+    margin: auto;
+    position: absolute;
+    right: -1px;
+    top: 9px;
+    width: 3px;
+    height: 25px;
+    background-color: #fff;
+    animation: cursor-animation 1.5s step-end infinite;
+}
+
+@keyframes cursor-animation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
