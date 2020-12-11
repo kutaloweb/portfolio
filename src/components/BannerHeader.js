@@ -5,14 +5,17 @@ import useTypewriter from "react-typewriter-hook"
 import {useState, useEffect, useRef} from "react";
 
 const MagicOcean = [
-    "Visual Designer & Front-end Developer",
-    "Git/Github flow",
-    "React, Redux, React-router",
+    "Top-rated Freelancer on Upwork",
+    "Front End Web Developer",
+    "Full Stack Web Developer",
+    "React Web Developer",
+    "Hubspot Certified Developer",
+    "Shopify Developer",
 ];
 let index = 0;
 
 function BannerHeader() {
-    const [magicName, setMagicName] = useState("Visual Designer & Front-end Developer");
+    const [magicName, setMagicName] = useState("Top-rated Freelancer on Upwork");
     const intervalRef = useRef({});
     const name = useTypewriter(magicName);
     useEffect(
@@ -20,7 +23,7 @@ function BannerHeader() {
             intervalRef.current = setInterval(() => {
                 index = index > 2 ? 0 : ++index;
                 setMagicName(MagicOcean[index]);
-            }, 5000);
+            }, 6000);
             return function clear() {
                 clearInterval(intervalRef.current);
             };
@@ -35,11 +38,8 @@ function BannerHeader() {
                 {() => (
                     <div className="container">
                         <div className="banner_content text-left">
-                            <Reveal effect="fadeInUp">
-                                <h5>HELLO</h5>
-                            </Reveal>
                             <Reveal effect="fadeInUp" duration={1500}>
-                                <h2 className="wow fadeInLeft animated">I am Alexey Kutalo</h2>
+                                <h2 className="wow fadeInLeft animated">Hi, I'm Alexey Kutalo</h2>
                             </Reveal>
                             <Reveal effect="fadeInUp" duration={2200}>
                                 <h4 className="wow fadeInUp anoimated cursor">{name} &zwnj;</h4>

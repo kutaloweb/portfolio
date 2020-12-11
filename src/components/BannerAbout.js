@@ -6,7 +6,7 @@ import {Link} from "react-scroll";
 class bannerAbout extends Component {
     render() {
         return (
-            <section className="frelencer_banner_area" id="home">
+            <section className="frelencer_banner_area" id="about">
                 <div className="home_bubble">
                     <div className="bubble b_one"></div>
                     <div className="bubble b_two"></div>

@@ -26,6 +26,12 @@ class Navbar extends Component {
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true}
                                           offset={0} duration={500}>
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" activeClass="active" to="about" spy={true} smooth={true}
+                                          offset={0} duration={500}>
                                         About
                                     </Link>
                                 </li>
