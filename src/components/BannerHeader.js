@@ -21,7 +21,7 @@ function BannerHeader() {
     useEffect(
         () => {
             intervalRef.current = setInterval(() => {
-                index = index > 2 ? 0 : ++index;
+                index = index > 5 ? 0 : ++index;
                 setMagicName(MagicOcean[index]);
             }, 6000);
             return function clear() {
