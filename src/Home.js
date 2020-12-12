@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
 import Clients from './components/Clients';
-import Contacts from './components/Contacts';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export const Home = () => (
@@ -20,7 +20,7 @@ export const Home = () => (
     <Skills/>
     <Testimonials/>
     <Clients/>
-    <Contacts/>
+    <Contact/>
     <Footer/>
   </div>
 )

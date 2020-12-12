@@ -68,7 +68,7 @@ class Navbar extends Component {
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="contacts" spy={true}
                                           smooth={true} offset={-86} duration={500}>
-                                        Contacts
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>

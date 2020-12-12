@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Reveal from 'react-reveal/Reveal/';
 import Title from './Title';
 
-class Contacts extends Component {
+class Contact extends Component {
     render() {
         return (
             <section className="contact-area contact-area-two" id="contacts">
@@ -73,4 +73,4 @@ class Contacts extends Component {
     }
 }
 
-export default Contacts;
+export default Contact;
