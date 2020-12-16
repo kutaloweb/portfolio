@@ -36,7 +36,7 @@ class Contact extends Component {
 
         const {name, fromEmail, subject, body, phone} = this.state.message
 
-        const response = await fetch("http://143.110.155.93:9000/email", {
+        const response = await fetch("https://alexkutalo.com/email", {
             method: "post",
             headers: {
                 "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
