@@ -1045,6 +1045,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px 0 0px;
 }
 
+.company {
+    font-style: italic !important;
+}
+
 .testimonial_area .testimonial_slider .item span {
     font: 400 13px "Open Sans", sans-serif;
     opacity: 0.6;
@@ -1154,9 +1158,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
-.clients_slider .item a {
+.clients_slider .item {
     display: block;
     text-align: center;
+    outline: none;
 }
 
 .clients_slider .item img {
@@ -1170,7 +1175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients_slider .item:hover img {
-    opacity: 1;
+    opacity: 0.8;
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
@@ -2688,7 +2693,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     display: inline-block;
     overflow: hidden;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .testimonial_slider_four .item img {
@@ -2696,10 +2701,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testimonial_slider_four .item p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 23px;
     font-style: italic;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #fff;
 }
 
