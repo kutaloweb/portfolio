@@ -8,7 +8,8 @@ const MagicOcean = [
     "Top-rated Freelancer on Upwork",
     "Front End Web Developer",
     "Full Stack Web Developer",
-    "React Web Developer",
+    "React / MERN Developer",
+    "PHP / Laravel Developer",
     "Hubspot Certified Developer",
     "Shopify Developer",
 ];
@@ -21,7 +22,7 @@ function BannerHeader() {
     useEffect(
         () => {
             intervalRef.current = setInterval(() => {
-                index = index > 5 ? 0 : ++index;
+                index = index > 6 ? 0 : ++index;
                 setMagicName(MagicOcean[index]);
             }, 6000);
             return function clear() {
