@@ -9,8 +9,8 @@ class Clients extends Component {
             infinite: false,
             speed: 500,
             arrows: false,
-            slidesToShow: 6,
-            slidesToScroll: 1,
+            slidesToShow: 5,
+            slidesToScroll: 5,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -43,25 +43,40 @@ class Clients extends Component {
                            btitle="Some of Great companies portfolios discribe."/>
                     <Clientsliders {...settings} className="clients_slider">
                         <div className="item">
-                            <a href=".#"><img src={require('../image/1.png')} alt=""/></a>
+                            <img src={require('../image/clients/aet.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/2.png')} alt=""/></a>
+                            <img src={require('../image/clients/airthings.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/3.png')} alt=""/></a>
+                            <img src={require('../image/clients/bestbox.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/4.png')} alt=""/></a>
+                            <img src={require('../image/clients/blink.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/5.png')} alt=""/></a>
+                            <img src={require('../image/clients/brightr.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/6.png')} alt=""/></a>
+                            <img src={require('../image/clients/client-chat.png')} alt=""/>
+                        </div>
+                        <div className="more_opacity item">
+                            <img src={require('../image/clients/imprint.png')} alt=""/>
                         </div>
                         <div className="item">
-                            <a href=".#"><img src={require('../image/5.png')} alt=""/></a>
+                            <img src={require('../image/clients/kajabi.png')} alt=""/>
+                        </div>
+                        <div className="item">
+                            <img src={require('../image/clients/mabl.png')} alt=""/>
+                        </div>
+                        <div className="item">
+                            <img src={require('../image/clients/screaming-garlic.png')} alt=""/>
+                        </div>
+                        <div className="more_opacity item">
+                            <img src={require('../image/clients/silverback-strategies.png')} alt=""/>
+                        </div>
+                        <div className="item">
+                            <img src={require('../image/clients/xpathmedia.png')} alt=""/>
                         </div>
                     </Clientsliders>
                 </div>
