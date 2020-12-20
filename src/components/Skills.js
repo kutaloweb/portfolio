@@ -55,26 +55,26 @@ class Skills extends Component {
                     <div className="seo_fact_info">
                         <div className="seo_fact_item wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
-                                <div className="counter one" data-countup>693</div>
+                                <div className="counter one" data-countup>104</div>
                                 <p className="counter_desc">Happy Clients</p>
                             </div>
                         </div>
                         <div className="seo_fact_item wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
-                                <div className="counter two" data-countup>276</div>
+                                <div className="counter two" data-countup>124</div>
                                 <p className="counter_desc">Projects</p>
                             </div>
                         </div>
                         <div className="seo_fact_item wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
-                                <div className="t_color counter three" data-countup>102</div>
+                                <div className="t_color counter three" data-countup>97</div>
                                 <p className="counter_desc">5-star Ratings</p>
                             </div>
                         </div>
                         <div className="seo_fact_item seo_fact_item_last wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
-                                <div className="counter four" data-countup>93</div>
-                                <p className="counter_desc">Hours</p>
+                                <div className="counter four" data-countup>7</div>
+                                <p className="counter_desc">Countries</p>
                             </div>
                         </div>
                     </div>
