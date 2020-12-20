@@ -38,7 +38,7 @@ class Testimonials extends Component {
 "/>
                             <Fade bottom cascade>
                                 <div className="wow fadeInUp" data-wow-delay="0.3s">
-                                    <p>I won't stop until you’re 100% satisfied. Biggest fulfillment to me is your
+                                    <p>I won't stop until you’re 100% satisfied. What keeps me going is your
                                         success story! Disappointed by the rest? Then hire the best!
                                     </p>
                                 </div>

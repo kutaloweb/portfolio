@@ -6,7 +6,7 @@ import {Link} from "react-scroll";
 class bannerAbout extends Component {
     render() {
         return (
-            <section className="frelencer_banner_area" id="about">
+            <section className="freelancer_banner_area" id="about">
                 <div className="home_bubble">
                     <div className="bubble b_one"></div>
                     <div className="bubble b_two"></div>
@@ -33,7 +33,7 @@ class bannerAbout extends Component {
                                     </div>
                                 </Reveal>
                             </div>
-                            <div className="frelencer_content">
+                            <div className="freelancer_content">
                                 <Reveal effect="fadeInUp" duration={900}>
                                     <Link className="fadeInUp theme_btn active" to="contacts" spy={true} smooth={true}
                                           offset={-86} duration={500}>
@@ -43,7 +43,7 @@ class bannerAbout extends Component {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="frelencer_img">
+                            <div className="freelancer_img">
                                 <Reveal effect="fadeInLeft" duration={1400}>
                                     <img className="f_img_one" src={require('../image/f_man.png')} alt=""/>
                                 </Reveal>
