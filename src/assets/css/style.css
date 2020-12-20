@@ -866,12 +866,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio_menu .theme_btn.active {
     background: #0db3c7;
-    border-color: #ccc;
+    border-color: #0db3c7;
     color: #fff;
 }
 
 .portfolio_menu .theme_btn.pushed {
-    border: 3px solid #000;
+    border: 2px solid #000;
 }
 
 .grid-item {
