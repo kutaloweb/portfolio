@@ -9,9 +9,9 @@ const MagicOcean = [
     "Front End Web Developer",
     "Full Stack Web Developer",
     "React / MERN Developer",
-    "PHP / Laravel Developer",
+    "PHP / Laravel / Wordpress Developer",
     "Hubspot Certified Developer",
-    "Shopify Developer",
+    "Shopify / Shopify Plus Developer",
 ];
 let index = 0;
 

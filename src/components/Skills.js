@@ -45,10 +45,13 @@ class Skills extends Component {
         return (
             <section className="work_area bg_color seo_service_info" id="skill">
                 <div className="container seo_service_info">
-                    <Title tCenter="text-center" stitle="My Featured Skills"
-                           btitle="Over 120+ completed work & Still counting."/>
-                    <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old fruit
-                        bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
+                    <Title tCenter="text-center" stitle="My Skills and Upwork Stats"
+                           btitle="Over hundreds of satisfied clients and still counting"/>
+                    <p>Helping business owners build solutions that are fulfilling their needs and delight
+                        their customers with a better user experience. Work using PHP, Laravel, Wordpress,
+                        Node.js, Express, RESTful APIs, JavaScript (ES6), React.js, Redux, Vue.js, MySQL, MongoDB,
+                        Bootstrap, HTML, CSS, SASS, Webpack, Git, Shopify, HubSpot.
+                    </p>
                     <div className="seo_fact_info">
                         <div className="seo_fact_item wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
@@ -65,13 +68,13 @@ class Skills extends Component {
                         <div className="seo_fact_item wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
                                 <div className="t_color counter three" data-countup>102</div>
-                                <p className="counter_desc">SEO Winners</p>
+                                <p className="counter_desc">5-star Ratings</p>
                             </div>
                         </div>
                         <div className="seo_fact_item seo_fact_item_last wow fadeIn" data-wow-delay="0.1s">
                             <div className="text">
                                 <div className="counter four" data-countup>93</div>
-                                <p className="counter_desc">Experience</p>
+                                <p className="counter_desc">Hours</p>
                             </div>
                         </div>
                     </div>

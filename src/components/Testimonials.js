@@ -34,11 +34,13 @@ class Testimonials extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <Title stitle="Customer feedback" btitle="What our customers say about John.."/>
+                            <Title stitle="Customer testimonials" btitle="Feedback that speaks for itself
+"/>
                             <Fade bottom cascade>
                                 <div className="wow fadeInUp" data-wow-delay="0.3s">
-                                    <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old
-                                        fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
+                                    <p>I won't stop until you’re 100% satisfied. Biggest fulfillment to me is your
+                                        success story! Disappointed by the rest? Then hire the best!
+                                    </p>
                                 </div>
                                 <div className="slider_nav">
                                     <i className="arrow_carrot-left_alt2 prev" onClick={this.previous}></i>

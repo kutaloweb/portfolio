@@ -38,8 +38,8 @@ class Clients extends Component {
         return (
             <section className="clients_logo_area_two bg_color" id="clients">
                 <div className="container">
-                    <Title tCenter="text-center" stitle="Trusted by Great Partners"
-                           btitle="Some of Great companies portfolios discribe."/>
+                    <Title tCenter="text-center" stitle="Some of the clients I had the privilege to work with"
+                           btitle="Trusted by small and medium-sized enterprises in the US and across the globe"/>
                     <Clientsliders {...settings} className="clients_slider">
                         <div className="item">
                             <img src={require('../image/clients/aet.png')} alt=""/>

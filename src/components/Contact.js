@@ -109,11 +109,11 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col-lg-5 col-md-12">
                             <div className="get_info">
-                                <Title stitle="Get in Touch" btitle="Talk or Meet with Me"/>
+                                <Title stitle="Get in Touch" btitle="I'm excited to connect!"/>
                                 <div className="media get_item">
                                     <i className="flaticon-phone"></i>
                                     <div className="media-body">
-                                        <h6>Call Me Now</h6>
+                                        <h6>Text Me Now</h6>
                                         <p>206-432-5221</p>
                                     </div>
                                 </div>
@@ -127,8 +127,8 @@ class Contact extends Component {
                                 <div className="media get_item">
                                     <i className="flaticon-pin"></i>
                                     <div className="media-body">
-                                        <h6>Get Me Here</h6>
-                                        <p>98102 - Seattle, WA</p>
+                                        <h6>Find Me Here</h6>
+                                        <p>Seattle, WA, 98102</p>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ class Contact extends Component {
                         <div className="col-lg-7 col-md-12">
                             <Reveal effect="fadeInRight" duration={800}>
                                 <div className="input_form">
-                                    <Title stitle="Contact us" btitle="Let me know here Know Here"/>
+                                    <Title stitle="Contact me" btitle="Contact me now to get a quote!"/>
                                     <form id="contactForm">
                                         <div className="row">
                                             <div className="col-lg-6">

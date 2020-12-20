@@ -28,7 +28,7 @@ a:hover, a:focus {
 
 body {
     line-height: 30px;
-    font-size: 16px;
+    font-size: 17px;
     font-family: "Open Sans", sans-serif;
     color: #797979;
 }
@@ -1636,7 +1636,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 38px;
     font-weight: 700;
     color: #040c2c;
-    text-transform: capitalize;
     letter-spacing: -2px;
 }
 
@@ -2468,7 +2467,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .seo_service_item p {
     margin-bottom: 0;
-    font-size: 16px;
     line-height: 30px;
     color: #6a7695;
     margin-bottom: 40px;
@@ -2743,7 +2741,7 @@ h1, h2, h3, h4, h5, h6 {
     content: "";
     margin: auto;
     position: absolute;
-    right: -1px;
+    right: 1px;
     top: 9px;
     width: 3px;
     height: 25px;

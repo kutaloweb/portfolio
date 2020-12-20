@@ -22,9 +22,14 @@ class bannerAbout extends Component {
                                 <Reveal effect="fadeInUp" duration={700}>
                                     <div className="skill_content_two">
                                         <Title stitle="About me"
-                                               btitle="Some Interesting Facts About Me."/>
-                                        <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old
-                                            fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
+                                               btitle="Professional, reliable, delivers results"/>
+                                        <p> In today's disrupt-or-be-disrupted world, you need someone who keeps up with
+                                            emerging technologies and industry trends. I write well designed, testable,
+                                            efficient code. Love a well-designed website? So do I! I have a passion and
+                                            reputation to create modern and dynamic websites, ensuring your website not
+                                            only looks great but also brings profitable results as well. Are you looking
+                                            for someone with an unstoppable urge to get his hands on new, exciting and
+                                            meaningful projects like yours? Challenge accepted.</p>
                                     </div>
                                 </Reveal>
                             </div>
