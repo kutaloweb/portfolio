@@ -888,20 +888,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio .item-img-overlay {
     position: absolute;
-    top: 8px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    background: rgba(255, 255, 255, 0.95);
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background: rgba(255, 255, 255, 1);
     opacity: 0;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
     z-index: 2;
-    -webkit-transform: translateY(10px);
-    -ms-transform: translateY(10px);
-    transform: translateY(10px);
-    cursor: pointer;
 }
 
 .portfolio .item-img-overlay .overlay-info {
@@ -912,6 +908,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
+    color: #040c2c;
 }
 
 .portfolio .item-img-overlay .overlay-info h6 {
