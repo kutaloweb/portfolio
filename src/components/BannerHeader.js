@@ -5,7 +5,7 @@ import useTypewriter from "react-typewriter-hook"
 import {useState, useEffect, useRef} from "react";
 
 const MagicOcean = [
-    "Top-rated&nbsp;Freelancer",
+    "Top-rated Freelancer on Upwork",
     "Front End Web Developer",
     "Full Stack Web Developer",
     "React & MERN Developer",
@@ -16,7 +16,7 @@ const MagicOcean = [
 let index = 0;
 
 function BannerHeader() {
-    const [magicName, setMagicName] = useState(`Top-rated Freelancer`);
+    const [magicName, setMagicName] = useState('Top-rated Freelancer on Upwork');
     const intervalRef = useRef({});
     const name = useTypewriter(magicName);
     useEffect(
