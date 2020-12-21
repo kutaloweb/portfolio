@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*========== banner_area css =========*/
 .banner_area, .banner_area_two {
-    min-height: 100vh;
+    min-height: 101vh;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -849,10 +849,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio_menu .theme_btn {
-    margin-top: 1px;
     color: #fff;
-    display: inline-flex;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 270px;
+    text-align: center;
 }
 
 .portfolio_menu .theme_btn:before {
@@ -2121,7 +2123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get_item .media-body a, .get_item .media-body p {
-    font-size: 30px;
+    font-size: 21px;
     color: #040c2c;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;

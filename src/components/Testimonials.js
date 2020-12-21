@@ -30,7 +30,7 @@ class Testimonials extends Component {
             slidesToScroll: 1,
         };
         return (
-            <div className="testimonial_area_two" id="testimonial">
+            <section className="testimonial_area_two" id="testimonial">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -227,7 +227,7 @@ class Testimonials extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

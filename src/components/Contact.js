@@ -114,14 +114,14 @@ class Contact extends Component {
                                     <i className="flaticon-phone"></i>
                                     <div className="media-body">
                                         <h6>Text Me Now</h6>
-                                        <p>206-432-5221</p>
+                                        <p>206-809-1815</p>
                                     </div>
                                 </div>
                                 <div className="media get_item">
                                     <i className="flaticon-chat"></i>
                                     <div className="media-body">
                                         <h6>Contact Me on Skype</h6>
-                                        <p>live:alhappyma</p>
+                                        <p>dalexey025@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="media get_item">

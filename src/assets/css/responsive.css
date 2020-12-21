@@ -253,7 +253,7 @@
     .footer_bottom p{
         text-align: center !important;
         margin-bottom: 12px !important;
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
     .seo_fact_info .seo_fact_item{
         max-width: 130px !important;
@@ -287,6 +287,28 @@
     .testimonial_area .testimonial_slider{
         padding: 0px;
     }
+    .testimonial_area_two .slick-list{
+        margin-top: 70px;
+    }
+    .testimonial_area_two .slider_nav {
+        text-align: center;
+        margin-left: 15px;
+    }
+    .stratup_testimonial_info:before {
+        background: none;
+    }
+    .testimonial_slider_four .item p, .testimonial_slider_four .item h5, .testimonial_slider_four .item h6{
+        color: #797979;
+    }
+    .testimonial_slider_four .item p {
+        font-size: 17px;
+    }
+    .stratup_testimonial_info:before {
+        width: 300%;
+        height: 300%;
+        bottom: 420px;
+        position: absolute;
+    }
     .title_p br{
         display: none;
 
@@ -296,7 +318,7 @@
         line-height: 40px;
     }
     .banner_content h2{
-        font-size: 38px;
+        font-size: 30px;
     }
     .about_content .theme_btn{
         margin-bottom: 8px;
@@ -376,6 +398,15 @@
     .footer-area-two .text-right{
         text-align: center !important;
         padding-top: 15px;
+    }
+    .banner_shap, .banner_shap_two {
+        background-position: 83%;
+    }
+    .banner_content {
+        padding-top: 200px;
+    }
+    .banner_content h4 {
+        display: none;
     }
 }
 @media (max-width:450px){
