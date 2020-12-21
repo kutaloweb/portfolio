@@ -23,13 +23,13 @@ class bannerAbout extends Component {
                                     <div className="skill_content_two">
                                         <Title stitle="About me"
                                                btitle="Professional, reliable, delivers results"/>
-                                        <p> In today's disrupt-or-be-disrupted world, you need someone who keeps up with
-                                            emerging technologies and industry trends. I write well designed, testable,
-                                            efficient code. Love a well-designed website? So do I! I have a passion and
-                                            reputation to create modern and dynamic websites, ensuring your website not
-                                            only looks great but also brings profitable results as well. Are you looking
-                                            for someone with an unstoppable urge to get his hands on new, exciting and
-                                            meaningful projects like yours? Challenge accepted.</p>
+                                        <p> Love a well-designed website? So do I! In today's disrupt-or-be-disrupted
+                                            world, you need someone who keeps up with emerging technologies and industry
+                                            trends. I write well designed, testable, efficient code. I have a passion
+                                            and reputation to create modern and dynamic websites, ensuring your website
+                                            not only looks great but also brings profitable results as well. Are you
+                                            looking for someone with an unstoppable urge to get his hands on new,
+                                            exciting and meaningful projects like yours? Challenge accepted.</p>
                                     </div>
                                 </Reveal>
                             </div>
