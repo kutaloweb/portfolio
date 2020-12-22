@@ -56,11 +56,11 @@ class Portfolio extends Component {
                                     this.onFilterChange("shopify")
                                 }}>Shopify
                         </button>
-                        <button className={`${this.onActive(`market`)} theme_btn active`} data-wow-delay="0.8s"
-                                data-filter="market"
+                        <button className={`${this.onActive(`web`)} theme_btn active`} data-wow-delay="0.8s"
+                                data-filter="web"
                                 onClick={() => {
-                                    this.onFilterChange("market")
-                                }}>Marketing
+                                    this.onFilterChange("web")
+                                }}>JS, React, PHP
                         </button>
                     </ul>
 
@@ -138,7 +138,7 @@ class Portfolio extends Component {
                             </div>
                         </div>
 
-                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item market">
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
                             <div className="portfolio hover-style">
                                 <img src={require('../image/portfolio/3.jpg')} alt=""/>
                                 <div className="item-img-overlay">
