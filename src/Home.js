@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 export const Home = () => (
   <div className="body_wrapper">
-    <Navbar mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>
+    <Navbar mainlogo="logo-white.png" stickylogo="logo-black.png"/>
     <BannerHeader/>
     <BannerAbout/>
     <Services/>

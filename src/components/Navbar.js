@@ -10,8 +10,8 @@ class Navbar extends Component {
                 <nav className="navbar navbar-expand-lg navbar-light menu_two">
                     <div className="container">
                         <span className="navbar-brand logo_h">
-                            <img src={require("../image/" + mainlogo)} alt=""/>
-                            <img src={require("../image/" + stickylogo)} alt=""/>
+                            <img className="navbar-logo" src={require("../image/" + mainlogo)} alt=""/>
+                            <img className="navbar-logo" src={require("../image/" + stickylogo)} alt=""/>
                         </span>
                         <a href="Navbar" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
