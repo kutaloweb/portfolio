@@ -50,11 +50,11 @@ class Portfolio extends Component {
                                     this.onFilterChange("hubspot")
                                 }}>HubSpot
                         </button>
-                        <button className={`${this.onActive(`develop`)} theme_btn active`} data-wow-delay="0.6s"
-                                data-filter="develop"
+                        <button className={`${this.onActive(`shopify`)} theme_btn active`} data-wow-delay="0.6s"
+                                data-filter="shopify"
                                 onClick={() => {
-                                    this.onFilterChange("develop")
-                                }}>Development
+                                    this.onFilterChange("shopify")
+                                }}>Shopify
                         </button>
                         <button className={`${this.onActive(`market`)} theme_btn active`} data-wow-delay="0.8s"
                                 data-filter="market"
@@ -67,28 +67,24 @@ class Portfolio extends Component {
                     <div className="grid row">
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/1.jpg')} alt=""/>
+                                <img src={require('../image/portfolio/pesolar450.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">HubSpot</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        <h4>PE Solar</h4>
+                                        <h6>Save money on your energy costs while helping the environment with solar panels, serving FL, AZ  and NC PE Solar is your solar company.</h6>
+                                        <h6>pesolar.com</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/2.jpg')} alt=""/>
+                                <img src={require('../image/portfolio/bestbox450.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">HubSpot</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        <h4>BestBox Fitness</h4>
+                                        <h6>A fitness company helping gym owners and coaches Rx the business side of running a "box".</h6>
+                                        <h6>bestbox.co</h6>
                                     </div>
                                 </div>
                             </div>
@@ -98,51 +94,45 @@ class Portfolio extends Component {
                                 <img src={require('../image/portfolio/rockerbox900.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">Enterprise multi-touch attribution made simple and
-                                            affordable.</h6>
-                                        <h6 className="sm-titl">rockerbox.com</h6>
+                                        <h4>Rockerbox</h4>
+                                        <h6>Enterprise multi-touch attribution made simple and affordable. Know the true impact and ROI of every marketing activity.</h6>
+                                        <h6>rockerbox.com</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/9.jpg')} alt=""/>
+                                <img src={require('../image/portfolio/mabl900.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">HubSpot</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        <h4>mabl</h4>
+                                        <h6>Quality begins where the first line of code is written. Integrate intelligent test automation into the entire software development workflow with mabl.</h6>
+                                        <h6>mabl.com</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/1.jpg')} alt=""/>
+                                <img src={require('../image/portfolio/capdesk450.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">HubSpot</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        <h4>Capdesk</h4>
+                                        <h6>Fast-growing startups use Capdesk to digitise their cap table and shareholder register, effortlessly manage company equity and incentivise employees through share schemes.</h6>
+                                        <h6>capdesk.com</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/3.jpg')} alt=""/>
+                                <img src={require('../image/portfolio/inoc450.png')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">HubSpot</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        <h4>INOC</h4>
+                                        <h6>INOC is a US-based Network Operations Center providing 24×7 network monitoring support and NOC Lifecycle Solutions®.</h6>
+                                        <h6>inoc.com</h6>
                                     </div>
                                 </div>
                             </div>
@@ -153,53 +143,37 @@ class Portfolio extends Component {
                                 <img src={require('../image/portfolio/3.jpg')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">Marketing</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        Coming soon!
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item develop">
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
                                 <img src={require('../image/portfolio/4.jpg')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">Development</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        Coming soon!
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item develop">
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
                                 <img src={require('../image/portfolio/4.jpg')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">Development</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        Coming soon!
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item develop">
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
                                 <img src={require('../image/portfolio/4.jpg')} alt=""/>
                                 <div className="item-img-overlay">
                                     <div className="overlay-info text-center">
-                                        <h6 className="sm-titl">Development</h6>
-                                        <div className="icons">
-                                            <a href=".#"><i className="icon_heart_alt"></i></a>
-                                            <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                        </div>
+                                        Coming soon!
                                     </div>
                                 </div>
                             </div>

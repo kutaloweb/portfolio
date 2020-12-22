@@ -923,13 +923,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
     -webkit-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
     transform: translateY(-15px);
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+}
+
+.portfolio .item-img-overlay .overlay-info h4 {
+    margin-bottom: 30px;
 }
 
 .portfolio .item-img-overlay .overlay-info .icons a {
