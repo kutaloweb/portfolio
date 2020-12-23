@@ -68,7 +68,7 @@ class Portfolio extends Component {
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
                                 <a href="https://www.inoc.com" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/inoc450.png')} alt=""/>
+                                    <img src={require('../image/portfolio/hubspot/inoc450.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
                                             <h4>INOC</h4>
@@ -81,14 +81,15 @@ class Portfolio extends Component {
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
-                                <a href="https://www.capdesk.com" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/capdesk450.png')} alt=""/>
+                                <a href="https://blog.tophatter.com/sellerblog" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/hubspot/tophatter450.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
-                                            <h4>Capdesk</h4>
-                                            <h6>Fast-growing startups use Capdesk to digitise their cap table and
-                                                shareholder register, effortlessly manage company equity and incentivise
-                                                employees through share schemes.</h6>
+                                            <h4>Tophatter Seller Blog</h4>
+                                            <h6>Read practical tips to grow your sales on ecommerce
+                                                marketplaces &amp; retailers. Sellers &amp; merchants learn how to get
+                                                more sales &amp; diversify on multiple channels.</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -97,13 +98,12 @@ class Portfolio extends Component {
                         <div className="col-md-6 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
                                 <a href="https://rockerbox.com" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/rockerbox900.png')} alt=""/>
+                                    <img src={require('../image/portfolio/hubspot/rockerbox900.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
                                             <h4>Rockerbox</h4>
                                             <h6>Enterprise multi-touch attribution made simple and affordable. Know the
-                                                true
-                                                impact and ROI of every marketing activity.</h6>
+                                                true impact and ROI of every marketing activity.</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -112,7 +112,7 @@ class Portfolio extends Component {
                         <div className="col-md-6 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
                                 <a href="https://pesolar.com" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/pesolar900.png')} alt=""/>
+                                    <img src={require('../image/portfolio/hubspot/pesolar900.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
                                             <h4>PE Solar</h4>
@@ -126,7 +126,7 @@ class Portfolio extends Component {
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
                                 <a href="https://bestbox.co" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/bestbox450.png')} alt=""/>
+                                    <img src={require('../image/portfolio/hubspot/bestbox450.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
                                             <h4>BestBox Fitness</h4>
@@ -140,58 +140,102 @@ class Portfolio extends Component {
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item hubspot">
                             <div className="portfolio hover-style">
                                 <a href="https://mabl.com" target="_blank" rel="noopener noreferrer">
-                                    <img src={require('../image/portfolio/mabl450.png')} alt=""/>
+                                    <img src={require('../image/portfolio/hubspot/mabl450.png')} alt=""/>
                                     <div className="item-img-overlay">
                                         <div className="overlay-info text-center">
                                             <h4>mabl</h4>
                                             <h6>Quality begins where the first line of code is written. Integrate
                                                 intelligent test automation into the entire software development
-                                                workflow
-                                                with mabl.</h6>
+                                                workflow with mabl.</h6>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
-                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
+
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/3.jpg')} alt=""/>
-                                <div className="item-img-overlay">
-                                    <div className="overlay-info text-center">
-                                        Coming soon!
+                                <a href="https://www.bedinabox.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/bedinabox450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>BedInABox®</h4>
+                                            <h6>Welcome to BedInABox® - The Original Mattress in a Box! Free
+                                                shipping &amp; super-simple returns.</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/4.jpg')} alt=""/>
-                                <div className="item-img-overlay">
-                                    <div className="overlay-info text-center">
-                                        Coming soon!
+                                <a href="https://www.trekell.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/trekell450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Trekell Art Supplies</h4>
+                                            <h6>Shop Trekell Art Supplies for professional-quality artist products. Free
+                                                shipping on orders $59+!</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6 col-xs-12 grid-item shopify">
+                            <div className="portfolio hover-style">
+                                <a href="https://hydropeptide.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/hypdropeptide900.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>HydroPeptide</h4>
+                                            <h6>Anti-aging, epigenetic skincare that&#39;s clinically proven and a
+                                                pleasure to use.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6 col-xs-12 grid-item shopify">
+                            <div className="portfolio hover-style">
+                                <a href="https://builtusa.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/builtusa900.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Built USA</h4>
+                                            <h6>Win Cool Prizes and purchase American Made Gear!</h6>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/4.jpg')} alt=""/>
-                                <div className="item-img-overlay">
-                                    <div className="overlay-info text-center">
-                                        Coming soon!
+                                <a href="https://us.got-bag.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/gotbag450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>GOT BAG</h4>
+                                            <h6>GOT BAG is a sustainable, social-first fashion brand dedicated to
+                                                raising awareness and cleaning our oceans from plastic pollution!</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 grid-item shopify">
                             <div className="portfolio hover-style">
-                                <img src={require('../image/portfolio/4.jpg')} alt=""/>
-                                <div className="item-img-overlay">
-                                    <div className="overlay-info text-center">
-                                        Coming soon!
+                                <a href="https://store.ravalmd.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/shopify/raval450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Raval Facial Aesthetics</h4>
+                                            <h6>Browse through a selection of top-of-the-line skincare products
+                                                available for purchase with Raval Facial Aesthetics. Get exclusive
+                                                access to our own prescription line, RavalRX.</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ class Footer extends Component {
                                     reserved. </p>
                             </div>
                             <div className="col-lg-6 col-sm-5 text-right">
-                                <p>Made with <i className="icon_heart"></i> by Alexey Kutalo</p>
+                                <p>Made with React.js and <i className="icon_heart"></i> by Alexey Kutalo</p>
                             </div>
                         </div>
                     </div>
