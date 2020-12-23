@@ -60,7 +60,7 @@ class Portfolio extends Component {
                                 data-filter="web"
                                 onClick={() => {
                                     this.onFilterChange("web")
-                                }}>JS, React, PHP
+                                }}>JS & PHP
                         </button>
                     </ul>
 
@@ -233,6 +233,91 @@ class Portfolio extends Component {
                                             <h6>Browse through a selection of top-of-the-line skincare products
                                                 available for purchase with Raval Facial Aesthetics. Get exclusive
                                                 access to our own prescription line, RavalRX.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://www.ssi-net.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/ssi450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Systems Solution, Inc.</h4>
+                                            <h6>SSI is the leading provider of IT support services including cyber
+                                                security, disaster recovery, virtual CIO and more.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://nu.nuorder.com/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/nuorder450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>NuORDER B2B eCommerce</h4>
+                                            <h6>B2B Wholesale eCommerce solution for buyers &amp; brands. NuORDER's
+                                                2-way ordering system takes your business digital 24/7, taking selling
+                                                to the next level.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://github.com/kutaloweb/spala" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/spala900.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Spala</h4>
+                                            <h6>Spala (SPA LARAVEL): a modern lightweight CMS for Laravel and Vue
+                                                developers (open source project with 80+ stars on GitHub).</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://go.mapsentry.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/mapsentry900.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>MapSentry</h4>
+                                            <h6>Instantly Identify, Monitor and Contact Your MAP Policy Violators In One
+                                                Place.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://clientchatlive.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/clientchatlive450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>Client Chat Live</h4>
+                                            <h6>Client Chat Live™ was made by lawyers for lawyers. Get More Clients With Full Service Live Chat.</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
+                            <div className="portfolio hover-style">
+                                <a href="https://madisonmilesmedia.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../image/portfolio/web/madison450.png')} alt=""/>
+                                    <div className="item-img-overlay">
+                                        <div className="overlay-info text-center">
+                                            <h4>madison/miles media</h4>
+                                            <h6>madison/miles media a digital marketing agency based in Dallas-Fort Worth, helps improve your brand positioning, generate leads and win customers.</h6>
                                         </div>
                                     </div>
                                 </a>
