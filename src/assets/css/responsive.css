@@ -1,3 +1,8 @@
+@media (min-width: 1900px){
+    .banner_shap_two:before {
+        display: none;
+    }
+}
 @media (max-width: 1400px){
     .freelancer_banner_area{
         height: 700px;
@@ -408,8 +413,9 @@
     .banner_content h4 {
         display: none;
     }
-}
-@media (max-width:450px){
+    .banner_shap_two:before {
+        display: none;
+    }
     .navbar.navbar_fixed .login{
         display: none;
     }
