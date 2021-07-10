@@ -1,8 +1,19 @@
 import React, {Component} from 'react';
 import Sticky from 'react-stickynode';
-import {Link} from 'react-scroll';
+import {Link , scroller} from 'react-scroll';
+import {withRouter} from 'react-router-dom';
 
 class Navbar extends Component {
+    componentDidMount() {
+        this.scrollTo();
+    }
+    scrollTo = () => {
+        const query = new URLSearchParams(this.props.location.search);
+        const target = query.get('target');
+        if (target) {
+            scroller.scrollTo(target);
+        }
+    }
     render() {
         let {mainlogo, stickylogo} = this.props;
         return (
@@ -80,4 +91,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

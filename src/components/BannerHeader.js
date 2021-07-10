@@ -5,6 +5,7 @@ import useTypewriter from "react-typewriter-hook"
 import {useState, useEffect, useRef} from "react";
 
 const MagicOcean = [
+    "Founder and CEO at Dreams To Life, LLC",
     "Top-rated Freelancer on Upwork",
     "Front End Web Developer",
     "Full Stack Web Developer",
@@ -16,15 +17,15 @@ const MagicOcean = [
 let index = 0;
 
 function BannerHeader() {
-    const [magicName, setMagicName] = useState('Top-rated Freelancer on Upwork');
+    const [magicName, setMagicName] = useState('Founder and CEO at Dreams To Life, LLC');
     const intervalRef = useRef({});
     const name = useTypewriter(magicName);
     useEffect(
         () => {
             intervalRef.current = setInterval(() => {
-                index = index > 6 ? 0 : ++index;
+                index = index > 7 ? 0 : ++index;
                 setMagicName(MagicOcean[index]);
-            }, 6000);
+            }, 7000);
             return function clear() {
                 clearInterval(intervalRef.current);
             };
